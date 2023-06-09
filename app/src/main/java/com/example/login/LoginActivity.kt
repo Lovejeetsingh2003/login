@@ -27,11 +27,11 @@ class LoginActivity : AppCompatActivity() {
         llRegister = findViewById(R.id.llRegister)
         tvRegister = llRegister.findViewById(R.id.tvRegister)
         btnLogin.setOnClickListener {
-            if (etEmail.text.toString().isNullOrEmpty())
+            if (etEmail.text.toString().isEmpty())
             {
                 etEmail.error ="Enter Your Email"
             }
-            else if(etPassword.text.toString().isNullOrEmpty())
+            else if(etPassword.text.toString().isEmpty())
             {
                 etPassword.error = "Enter your Password"
             }
@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
                 finish()
             }}
             tvRegister.setOnClickListener {
-            var intent =Intent(this,RegisterActivity::class.java)
+            val intent =Intent(this,RegisterActivity::class.java)
                startActivity(intent)
                 finish()
             }

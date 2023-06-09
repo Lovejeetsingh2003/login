@@ -1,6 +1,7 @@
 package com.example.login
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -29,6 +30,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
         etEmail1 = findViewById(R.id.etEmail1)
         etPassword1 = findViewById(R.id.etPassword1)
         etNumber = findViewById(R.id.etNumber)
@@ -51,6 +53,8 @@ class RegisterActivity : AppCompatActivity() {
                 etNumber.error = "Enter your Mob. No."
             }else {
                 Toast.makeText(this, "Register Successfully", Toast.LENGTH_SHORT).show()
+                val intent = Intent ( this, FirstActivity::class.java)
+                startActivity(intent)
                 finish()
             }
         }

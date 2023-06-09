@@ -17,4 +17,14 @@
     <string name="etNumber">Enter Mob. No.</string>
     <string name="etOther">Mention Here</string>
     <string name="Number">Number</string>
+    <string name="tvFirst">First Activity\n</string>
+    <string name="etName">Enter Your Name</string>
+    <string name="etRoll">Enter Your Roll NO.</string>
+    <string name="etTemp">Enter Temperature</string>
+    <string name="btnMove">Move</string>
+    <string name="tvScond">Second Activity</string>
+    <string name="tvSecond">Second Activity</string>
+    <string name="tvName">Your Name Is</string>
+    <string name="tvRoll">Your College Roll no.</string>
+    <string name="tvTemp">Temperature In Your City\n</string>
 </resources>
