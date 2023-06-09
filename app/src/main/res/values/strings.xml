@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">login</string>
+    <string name="Login">Login</string>
+    <string name="login">Login\n</string>
+    <string name="username">Login Your Email</string>
+    <string name="password">Login Password\n</string>
+    <string name="no_account">Create new account?</string>
+    <string name="register">Register</string>
+    <string name="text1">Register\n</string>
+    <string name="etEmail1">Enter E-mail</string>
+    <string name="et_password">Enter Password</string>
+    <string name="rbFirst">Male</string>
+    <string name="rbSecond">Female</string>
+    <string name="rbThird">Other</string>
+    <string name="tvGender">Select gender</string>
+    <string name="btnRegister">Register</string>
+    <string name="Number">Enter Mob. No.</string>
 </resources>
