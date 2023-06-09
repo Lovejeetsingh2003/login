@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/etEmail1"
+        android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:inputType="textEmailAddress"
         />
@@ -30,6 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etPassword1"
         android:paddingTop="20dp"
+        android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:inputType="textPassword"
         android:hint="@string/et_password"
@@ -38,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etNumber"
+        android:textColorHint="@color/black"
         android:paddingTop="20dp"
         android:textColor="@color/black"
         android:inputType="number"
@@ -47,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:id="@+id/llSelect"
         android:padding="20dp">
 
@@ -60,6 +64,7 @@
               android:layout_height="wrap_content"
               android:id="@+id/tvGender"
               android:text="@string/tvGender"
+              android:textColor="@color/black"
               android:fontFamily="sans-serif-black"
               android:textSize="20sp"
               />
@@ -67,27 +72,43 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:id="@+id/rbFirst"
+              android:textColor="@color/black"
+              android:fontFamily="sans-serif-black"
               android:text="@string/rbFirst"
               />
           <RadioButton
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:fontFamily="sans-serif-black"
+              android:textColor="@color/black"
               android:id="@+id/rbSecond"
               android:text="@string/rbSecond"
               />
           <RadioButton
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:fontFamily="sans-serif-black"
+              android:textColor="@color/black"
               android:id="@+id/rbThird"
               android:text="@string/rbThird"
               />
+
       </RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etOther"
+            android:visibility="gone"
+            android:padding="20dp"
+            android:hint="@string/etOther"
+            android:textColorHint="@color/black"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/llRegister1"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:gravity="center"
         >
     <Button
@@ -95,6 +116,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnRegister"
         android:padding="10dp"
+        android:textColor="@color/white"
         android:text="@string/btnRegister"
         android:backgroundTint="@color/blue_800"
         />

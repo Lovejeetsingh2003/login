@@ -14,5 +14,7 @@
     <string name="rbThird">Other</string>
     <string name="tvGender">Select gender</string>
     <string name="btnRegister">Register</string>
-    <string name="Number">Enter Mob. No.</string>
+    <string name="etNumber">Enter Mob. No.</string>
+    <string name="etOther">Mention Here</string>
+    <string name="Number">Number</string>
 </resources>
