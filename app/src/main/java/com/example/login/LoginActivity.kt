@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
                 finish()
             }}
             tvRegister.setOnClickListener {
-            val intent =Intent(this,RegisterActivity::class.java)
+            var intent =Intent(this,RegisterActivity::class.java)
                startActivity(intent)
                 finish()
             }
