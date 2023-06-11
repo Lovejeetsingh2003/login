@@ -19,6 +19,7 @@ class FirstActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setContentView(R.layout.activity_first)
         llFirst = findViewById(R.id.llFirst)
         etName = llFirst.findViewById(R.id.etName)
         etRoll = llFirst.findViewById(R.id.etRoll)
